@@ -13,7 +13,7 @@ Please cite our paper as follows:
 ```bibtex
 @inproceedings{jarin2025VRProfilens,
   title     = {VR ProfiLens: User Profiling Risks in Consumer Virtual Reality Apps},
-  author    = {Jarin, Ismat and Figueira, Olivia and and Duan, Yu and Le, Tu and Markopoulou, Athina},
+  author    = {Jarin, Ismat and Figueira, Olivia and Duan, Yu and Le, Tu and Markopoulou, Athina},
   booktitle = {Symposium on Usable Security and Privacy (USEC)},
   volume    = {2026},
   year      = {2026}
