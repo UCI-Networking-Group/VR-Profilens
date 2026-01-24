@@ -31,7 +31,15 @@ $ cd VR-Profilens
 
 **VRProfilens Experiment Modules**
 
-VRProfilens experiments consist of three parts: Data collection using BehaVR, Survey and Ground Truth Collection, and VR Profilens Attack Module.
+## Experiment Modules
+
+VR-ProfiLens consists of three components:
+1. **Data Collection** — Implemented using the BehaVR framework  
+   (linked as a Git submodule):  
+   https://github.com/UCI-Networking-Group/BehaVR
+2. **Survey and Ground Truth Collection**
+3. **Attack Module** — User profiling and risk analysis pipeline
+
 
 
 
