@@ -20,38 +20,18 @@ Please cite our paper as follows:
 }
 ```
 
-**Code Usage**
+## Getting Started with VRProfilens
 
-Please run script main.py for reproducing VR ProfiLens attribute inference pipeline. It loads preprocessed VR sensor features, trains a selected model, and evaluates Accuracy and F1 for specified user attributes across apps and sensor groups.
+To clone the repository and navigate into the project folder, run the following commands:
 
+```console
+$ git clone https://github.com/UCI-Networking-Group/VR-Profilens.git
+$ cd VR-Profilens
+``` 
 
-Arguments
-Flag	Description
---SG	Sensor group (BM, FE, EG, HJ, BM_FE, BM_FE_EG)
---dtype	Data type (hand or other)
---app_id	List of app IDs (e.g., 1 2 3)
---tol	Tolerance values (one per target)
---target_final	Target attributes to infer
---mode	Model (RF, XGB, SVM, LGB, Reg)
---mode2	Regression mode (LR, RFR)
-Example
-python main.py \
-  --SG BM \
-  --dtype other \
-  --app_id 1 2 3 \
-  --tol 5 5 5 \
-  --target_final age gender handedness \
-  --mode RF
+**VRProfilens Experiment Modules**
 
-#Output
-
-Accuracy:
-/<mode>/<SG>/Acc/accuracy_<attribute>.txt
-
-F1:
-/<mode>/<SG>/F1/F1_<attribute>.txt
-
-Trained models and extracted features are stored via save_file_lgb().
+VRProfilens experiments consist of three parts: Data collection using BehaVR, Survey and Ground Truth Collection, and VR Profilens Attack Module.
 
 
 
